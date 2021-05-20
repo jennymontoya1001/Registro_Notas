@@ -1,0 +1,9 @@
+.container{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
+     border: 1px solid grey;
+}
+
+h1{
+    text-align: center;
+}
