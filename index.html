@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <h1>Registro de notas</h1>
+        <form id="formulario">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Periodo 1</label>
+              <input type="email" class="form-control" id="p1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Periordo 2</label>
+                <input type="email" class="form-control" id="p2" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Periordo 3</label>
+                <input type="email" class="form-control" id="p3" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+            
+            <button type="submit" class="btn btn-primary">Save</button>
+          </form>
+
+          <div id="listaNotas"  class="mt-4">
+
+            
+             <div class="alert alert-primary" role="alert">
+                 <i class="material-icons float-left mr-2" >
+                 accessibility
+                 </i>
+                   <b>Notas</b> - Estado
+                   <span class="float-right">
+                       <i class="material-icons">done</i>
+                       <i class="material-icons">delete</i>
+                   </span>
+             </div>
+          </div>
+
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
