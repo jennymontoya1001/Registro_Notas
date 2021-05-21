@@ -1,0 +1,13 @@
+<div class="alert alert-primary" role="alert">
+           <i class="material-icons float-left mr-2" >
+           accessibility
+           </i>
+             <b>${element.nombre}</b>
+             <b>${element.periodo1}</b>
+             <b>${element.periodo2}</b>
+             <b>${element.periodo3}</b>
+             <span class="float-right">
+                 <i class="material-icons">delete</i>
+             </span>
+       </div>
+    </div>
